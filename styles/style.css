@@ -1,6 +1,7 @@
 body {
-    background-color: beige;
-}
+    background-image: url(/images/background.jpg);
+    background-size: cover;
+}   
 
 .container {
     margin: 30px auto;
@@ -10,6 +11,7 @@ h1 {
     color: darkgoldenrod;
     text-align: center;
     font-weight: 900!important;
+    margin-bottom: 30px!important;
 }
 
 h1 , h3 {
@@ -22,7 +24,18 @@ h3 {
 }
 
 .paragraph {
-    color: coral;
+    color: #FF6666;
     font-size: medium;
     
+}
+
+.ingredients {
+    margin: 40px 0 15px 20px;
+
+}
+
+.list {
+    font-size: medium;
+    color: #FFCC99;
+        
 }
