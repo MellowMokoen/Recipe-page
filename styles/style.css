@@ -19,5 +19,10 @@ h1 , h3 {
 h3 {
     color: darkgoldenrod;
     font-weight: 900!important;
+}
 
+.paragraph {
+    color: coral;
+    font-size: medium;
+    
 }
