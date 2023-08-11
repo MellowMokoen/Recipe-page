@@ -1,0 +1,15 @@
+body {
+    background-color: beige;
+}
+
+h1 {
+    color: brown;
+}
+
+h1 , h3 {
+    font-family: poppins;
+}
+
+h3 {
+    font-weight: 600;
+}
