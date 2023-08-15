@@ -7,26 +7,17 @@ body {
     margin: 30px 30px;
 }
 
-nav {
-    padding: 20px 0;
+.navbar {
+    margin: 50px 0;
 }
 
-nav ul {
-    padding: 0;
-    margin: 0;
+.navbar a {
+    color: #CC6633;
 }
 
-nav li {
-    display: inline;
-    list-style: none;
-    line-height: 42px;
-    margin-left: 15px;
-}
-
-nav a {
-    text-decoration: none;
-    color: var(--primary-color);
-    font-weight: bold;
+.btn {
+   margin: 10px;
+   box-shadow: 2px 2px 2px black;
 }
 
 h1 {
@@ -40,8 +31,9 @@ h1 , h3 {
 }
 
 .paragraph {
-    color: #FF6666;
+    color: #CC6633;
     font-size: medium;
+    font-family: poppins;
     
 }
 
