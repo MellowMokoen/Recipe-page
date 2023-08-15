@@ -16,10 +16,26 @@ body {
     font-weight: bold;
 }
 
+.navbar a:hover {
+    background-color: #e05a17;
+    color: white;
+}
+
 .btn {
    margin: 10px;
    border-radius: 5px;
    box-shadow: 2px 2px 2px black;
+}
+
+@media (max-width: 900px) {
+    .btn {
+        padding: 2px;
+
+    }
+
+    h3 {
+        color: black;
+    }
 }
 
 h1 {
@@ -35,7 +51,8 @@ h1 , h3 {
 .paragraph {
     color: #e05a17;
     font-size: medium;
-    font-family: poppins;
+    font-family: monospace;
+    font-weight: bold;
     
 }
 
@@ -61,4 +78,9 @@ footer .contact-links a {
     border-radius: 50%;
     padding: 10px 14px;
     transition: all 100ms ease-in-out;
+}
+
+footer .contact-links a:hover {
+    color: white;
+    background: #FF3300;
 }
