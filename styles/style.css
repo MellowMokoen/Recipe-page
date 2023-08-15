@@ -32,17 +32,16 @@ nav a {
 h1 {
     color: darkgoldenrod;
     text-align: center;
-    font-weight: 900!important;
     margin-bottom: 30px!important;
 }
 
 h1 , h3 {
-    font-family: poppins;
+    font-family: Cherry Bomb One;
 }
 
 h3 {
     color: darkgoldenrod;
-    font-weight: 900!important;
+    
 }
 
 .paragraph {
