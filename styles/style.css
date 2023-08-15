@@ -30,18 +30,13 @@ nav a {
 }
 
 h1 {
-    color: darkgoldenrod;
     text-align: center;
     margin-bottom: 30px!important;
 }
 
 h1 , h3 {
+    color: #FF3300;
     font-family: Cherry Bomb One;
-}
-
-h3 {
-    color: darkgoldenrod;
-    
 }
 
 .paragraph {
