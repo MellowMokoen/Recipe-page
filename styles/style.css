@@ -1,7 +1,12 @@
 body {
     background-color: beige;
     
-}   
+}
+
+:root {
+    --primary-color : #e05a17;
+    --secondary-color : #FF3300;
+}
 
 .container {
     margin: 30px 30px;
@@ -9,15 +14,16 @@ body {
 
 .navbar {
     margin: 50px 0;
+    position: fixed ;
 }
 
 .navbar a {
-    color: #e05a17;
+    color: var(--primary-color);
     font-weight: bold;
 }
 
 .navbar a:hover {
-    background-color: #e05a17;
+    background-color: var(--primary-color);
     color: white;
 }
 
@@ -27,14 +33,10 @@ body {
    box-shadow: 2px 2px 2px black;
 }
 
+
 @media (max-width: 900px) {
-    .btn {
-        padding: 2px;
-
-    }
-
-    h3 {
-        color: black;
+    body {
+        background-color: black;
     }
 }
 
@@ -44,12 +46,12 @@ h1 {
 }
 
 h1 , h3 {
-    color: #FF3300;
+    color: var(--secondary-color);
     font-family: Caprasimo;
 }
 
 .paragraph {
-    color: #e05a17;
+    color: var(--primary-color);
     font-size: medium;
     font-family: monospace;
     font-weight: bold;
@@ -63,7 +65,7 @@ h1 , h3 {
 
 .list {
     font-size: medium;
-    color: #e05a17;
+    color: var(--primary-color);
     font-family: monospace;
     line-height: 1.8;
     font-weight: bold;
@@ -73,7 +75,7 @@ h1 , h3 {
 footer .contact-links a {
     margin: 0 20px;
     color: black;
-    background-color: #e05a17;
+    background-color: var(--primary-color);
     font-size: 20px;
     border-radius: 50%;
     padding: 10px 14px;
@@ -82,5 +84,5 @@ footer .contact-links a {
 
 footer .contact-links a:hover {
     color: white;
-    background: #FF3300;
+    background: var(--secondary-color);
 }
