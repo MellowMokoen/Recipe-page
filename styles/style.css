@@ -35,9 +35,9 @@ body {
 
 
 @media (max-width: 900px) {
-    body {
-        background-color: black;
-    }
+     nav {
+        margin: 0 auto;
+     }
 }
 
 h1 {
@@ -56,6 +56,11 @@ h1 , h3 {
     font-family: monospace;
     font-weight: bold;
     
+}
+
+.border {
+    border-radius: 100px 100px;
+    box-shadow: 5px 5px 5px 5px black;
 }
 
 .ingredients {
